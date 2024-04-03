@@ -1,0 +1,33 @@
+.payments-form-container {
+    padding: 20px;
+    border: 1px solid #ffffff;
+    background-color: #ffffff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.header-payment-history {
+    padding-bottom: 20px;
+    text-align: center;
+}
+
+.th-rows-payment-history {
+    padding: 12px;
+    border: 1px solid black;
+    background-color: #f2f2f2;
+}
+
+.form-buttons {
+    margin-top:20px;
+    text-align: center;
+}
+
+.td-rows-payment-history {
+    padding: 20px;
+    border: 1px solid black;
+    background-color: #f2f2f2;
+}
+
+.history-table {
+    width: 100%;
+    border-collapse: collapse;
+}

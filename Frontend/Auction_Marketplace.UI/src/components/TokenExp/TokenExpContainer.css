@@ -1,0 +1,28 @@
+.token-exp-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+  padding: 20px;
+  height: 100%;
+}
+
+.token-exp-content {
+  text-align: center;
+  padding: 20px;
+  border-radius: 6px;
+  background-color: #f8f8f8;
+  max-width: 400px;
+  width: 100%;
+}
+
+.token-exp-content a {
+  text-decoration: none; 
+  color: #0366d6; 
+}
+
+.token-exp-content a:hover {
+  text-decoration: underline; 
+}

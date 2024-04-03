@@ -1,0 +1,168 @@
+.auctions-container {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    align-items: center;
+    padding: 0px;
+}
+.auction-info {
+    width: 300px;
+    height: 300px;
+    box-sizing: border-box;
+    background-color: #F9F9F9;
+    border: 1px solid #ddd;
+    margin: 24px;
+    padding: 10px;
+    position: relative;
+    border-radius: 50%;
+    overflow: hidden;
+  }
+.auction-info:hover {
+    box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.2);
+}
+.auction-image {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%; 
+}
+.pagination {
+    margin-left: 50%;
+    margin-top: 12%;
+}
+.pagination button:hover {
+    background-color: #96ACC4;
+}
+.title-container {
+   font-family:'Times New Roman', Times, serif;
+    max-height: 50px;
+    text-align: center;
+    margin-bottom: 60px;
+    margin-top: 80px;
+}
+.title {
+    font-size: 36px;
+    font-weight: bold;
+    color: #333;
+    display: inline-block;
+    padding-bottom: 5px;
+}
+.title span {
+    font-size: 28px;
+    margin-right: 5px;
+}
+.loading{
+    font-size: 25px;
+}
+
+
+@media (max-width: 1400px) {
+
+    .auctions-container {
+        display: grid;
+        grid-template-columns: auto;
+        align-items: center;
+        padding: 0px;
+        justify-content: center;
+      }
+      
+      .auction-info {
+        width: 250px; /* Adjusted width for smaller screens */
+        height: 250px; /* Adjusted height for smaller screens */
+        box-sizing: border-box;
+        background-color: #F9F9F9;
+        border: 1px solid #ddd;
+        margin: 12px; /* Reduced margin for smaller screens */
+        padding: 10px;
+        position: relative;
+        border-radius: 50%;
+        overflow: hidden;
+      }
+      
+      .auction-info:hover {
+        box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Reduced shadow for smaller screens */
+      }
+      
+      .auction-image {
+        width: 100%;
+        height: 100%;
+        border-radius: 50%;
+      }
+      
+      .pagination {
+        text-align: center;
+        margin-top: 20px; /* Adjusted margin for smaller screens */
+      }
+      
+      .pagination button:hover {
+        background-color: #96ACC4;
+      }
+      
+      .title-container {
+        font-family: 'Times New Roman', Times, serif;
+        max-height: 50px;
+        text-align: center;
+        margin-bottom: 30px; /* Adjusted margin for smaller screens */
+        margin-top: 40px; /* Adjusted margin for smaller screens */
+      }
+      
+      .title {
+        font-size: 24px; /* Reduced font size for smaller screens */
+        font-weight: bold;
+        color: #333;
+        display: inline-block;
+        padding-bottom: 5px;
+      }
+      
+      .title span {
+        font-size: 20px; /* Reduced font size for smaller screens */
+        margin-right: 5px;
+      }
+      
+      .loading {
+        font-size: 20px; /* Reduced font size for smaller screens */
+      }
+      
+}
+.no-auctions-message {
+    width: 900px;
+    height: 500px;
+    margin: 50px auto;
+    text-align: center;
+    padding: 30px;
+    border-radius: 10px;
+    background-color: #f9f9f9;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.1);
+}
+
+.no-auctions-message h2 {
+    font-size: 50px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+.no-auctions-message p {
+    font-size: 23px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #9d073b;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    margin-top: 30px;
+    width: 160px;
+    height: 40px
+}
+
+.button:hover {
+    background-color: #dbb3c0;
+}
+
+.click-image {
+    width: 180px;
+    height: auto;
+    margin-top: 20px;
+}

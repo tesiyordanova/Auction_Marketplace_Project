@@ -1,0 +1,125 @@
+.about-us-container {
+  width: 2000px;
+  margin: 0 auto;
+  padding: 20px;
+  text-align: center;
+}
+
+.about-us-container h2,
+.about-us-container h3 {
+  color: #333;
+  font-size: 24px;
+  margin-bottom: 20px;
+  margin-top: 50px;
+}
+
+.about-us-container p {
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  font-size: 20px;
+}
+
+.team-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+
+.team-member,
+.founder {
+  text-align: center;
+}
+
+.team-member img,
+.founder img {
+  width: 250px;
+  height: 250px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.team-member h4,
+.founder h4 {
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+
+.founder p {
+  font-size: 20px;
+  max-width: 270px;
+}
+
+.founders-container {
+  display: flex;
+  justify-content: center;
+}
+
+
+.founder{
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.about-us-container {
+  display: flex;
+  justify-content: space-between;
+}
+
+.about-us-section {
+  flex: 1;
+  margin: 0 60px;
+  width: 300px;
+  border: 2px solid black;
+  border-radius: 100px;
+  background-color: rgb(255, 251, 251);
+  padding: 30px;
+  margin-top: 40px;
+}
+
+.about-us-section h2,
+.about-us-section h3 {
+  color: #333;
+  font-size: 30px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+}
+
+.about-us-section p {
+  color: #444;
+  line-height: 1.5;
+  margin-bottom: 15px;
+  font-size: 22px;
+}
+
+.aboutUs-h3{
+  margin-top: 100px;
+    margin-bottom: 60px;
+    text-align: center;
+    font-size: 34px;
+    font-style: italic;
+}
+
+@media (max-width: 1850px) {
+  .about-us-container{
+    justify-content: center;
+  }
+
+  .about-us-section{
+    flex: none;
+  }
+
+}
+@media (max-width: 1150px) {
+
+  
+
+  .about-us-container{
+    justify-content: center;
+  }
+
+  .about-us-section{
+    flex: none;
+  }
+
+}

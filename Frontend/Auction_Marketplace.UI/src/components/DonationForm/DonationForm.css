@@ -1,0 +1,98 @@
+.donation-form-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100;
+}
+
+.donation-form {
+  background-color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+  padding-top: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-bottom: 15px;
+  max-width: 400px;
+  width: 100%;
+}
+
+.donation-form h3 {
+  color: #333;
+  margin-top: 0;
+  font-size: 24px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.donation-amount-buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+.donation-amount-buttons button {
+  margin: 5px;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  background-color: #b3bbda;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.donation-amount-buttons button:hover {
+  background-color: #0056b3;
+}
+
+.custom-amount-input input {
+  width: calc(100% - 20px);
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+.checkout-button {
+  height: 40px;
+  margin-right: 10px;
+  border: none;
+  padding: 12px;
+  padding-left: 16px;
+  padding-right: 16px;
+  border-radius: 15px;
+  background-color: #28a745;
+  color: #000000;
+  font-size: 14px;
+  font-weight: 550;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.checkout-button:hover {
+  background-color: #218838;
+}
+
+.close-btn {
+  height: 40px;
+  width: 30%;
+  font-weight: 600;
+  border-radius: 15px;
+}
+
+.close-btn:hover {
+  background-color: #c54451;
+}
+
+.custom-amount-input input {
+  margin-left: 0px;
+}
+
+.buttons {
+  display: flex;
+  justify-content: center; 
+}

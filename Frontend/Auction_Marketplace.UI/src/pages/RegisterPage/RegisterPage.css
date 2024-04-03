@@ -1,0 +1,17 @@
+
+.form {
+    margin-top: 60px;
+ }
+
+ .register-login-label {
+    display: block;
+    text-align: center;
+    margin: 8px;
+    color:#0056b3;
+    font-size: 14px;
+    text-decoration: none;
+  }
+  
+  .register-header-container {
+   margin-top: 10px;
+  }

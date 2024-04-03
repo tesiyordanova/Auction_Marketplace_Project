@@ -1,0 +1,148 @@
+.profile-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.profile-container {
+  background-color: white;
+  margin: 2px;
+  position: static;
+  border-radius: 38px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+.user-info {
+  border-radius: 5px;
+}
+
+.user-avatar img {
+  width: 100px;
+  height: 100px;
+  margin-left: 132px;
+  margin-bottom: 30px;
+  margin-top: 20px;
+  object-fit: cover;
+  border-style: solid;
+}
+
+.user-details label {
+  flex-grow: 1;
+  margin-right: 5px;
+}
+
+.user-detail {
+  margin: 10px;
+  padding: 10px;
+}
+
+.profile-edit {
+  background-color: #fff;
+  padding: 20px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.profile-edit form {
+  display: flex;
+  flex-direction: column;
+}
+
+.profile-edit label {
+  margin-bottom: 50px;
+}
+
+.profile-edit input {
+  padding: 8px;
+}
+
+.profile-edit button {
+  padding: 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.profile-edit {
+  background-color: #0056b3;
+}
+
+.save-icon {
+  margin-left: 30px;
+}
+
+.edit-icon {
+  margin-left: 20px;
+}
+
+.edit-icons {
+  margin-left: 12px;
+}
+
+.edit-icon-label {
+  margin: 30px;
+}
+
+.edit-label {
+  margin: 10px;
+}
+
+.header-user-form {
+  margin: 4px;
+}
+
+.input-user-names {
+  width: 62%;
+}
+
+.history-button {
+  background-color: rgb(140, 211, 225);
+  border: solid 1px #7fa1c7;
+}
+
+.payment-history-container {
+  border-radius: 6%;
+  padding: 25px;
+  background-color: #ffffff;
+}
+
+.header-payment-history-container {
+  font-size: 1.5rem;
+  text-align: center;
+  padding-bottom: inherit;
+}
+
+.table-history {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.table-history th,
+.table-history td {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  text-align: left;
+}
+
+.table-history th {
+  background-color: #f2f2f2;
+}
+
+.table-history tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+.table-history tr:hover {
+  background-color: #ddd;
+}
+
+.history {
+  display: flex;
+  justify-content: center;
+}
+
+.no-payments-label {
+  text-align: center;
+}
